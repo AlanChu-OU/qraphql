@@ -20,5 +20,8 @@ module.exports = {
         } catch (err) {
             throw err;
         }   
+    },
+    login: async ({email, password}) => {
+        
     }
 };
