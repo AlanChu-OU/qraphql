@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import './MainNavigation.css';
 
-const mainNavigation = prop => (
+const mainNavigation = props => (
     <header className="main-navigation">
         <div className="main-navigation__logo">
             <h1>EasyEvent</h1>
