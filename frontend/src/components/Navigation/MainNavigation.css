@@ -24,13 +24,14 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    align-items: center
 }
 
 .main-navigation__items li {
     margin: 0 1rem;
 }
 
-.main-navigation__items a 
+.main-navigation__items a,
 .main-navigation__items button {
     text-decoration: none;
     color: #000;
@@ -39,6 +40,7 @@
     font: inherit;
     background: transparent;
     cursor: pointer;
+    margin: 0;
 }
 
 .main-navigation__items a:hover,
